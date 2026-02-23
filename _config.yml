@@ -1,17 +1,21 @@
 title: Driving Cognition Lab
-tagline: Decoding Driver Decisions.
-description: Lab website for driving cognition research.
+description: Decoding Driver Decisions.
+remote_theme: pmarsceill/just-the-docs
 
-# Theme Settings
-theme: jekyll-theme-chirpy
-remote_theme: cotes2020/jekyll-theme-chirpy
+# Appearance
+color_scheme: "light"
+aux_links:
+  "GitHub": "https://github.com/Drivingsimulation/driving-cognition-lab"
 
-# This must match your GitHub URL exactly
-url: 'https://drivingsimulation.github.io/driving-cognition-lab/'
-baseurl: '/driving-cognition-lab'
-
-# This tells the theme where your logo is
-avatar: '/logo.png'
-
-plugins:
-  - jekyll-remote-theme
+# This helps with space and layout
+nav_config:
+  - title: About Our Lab
+    url: /
+  - title: Research Projects
+    url: /projects/
+  - title: Driving Simulator
+    url: /simulator/
+  - title: People
+    url: /people/
+  - title: Contact
+    url: /contact/
