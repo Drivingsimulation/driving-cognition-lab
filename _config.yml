@@ -2,10 +2,6 @@ title: Driving Cognition Lab
 description: Decoding Driver Decisions.
 remote_theme: pmarsceill/just-the-docs
 
-# --- ADD THIS LINE ---
-logo: "/logo.png"
-# ---------------------
-
 # Navigation and other settings
 color_scheme: "light"
 aux_links:
@@ -31,3 +27,7 @@ heading_anchors: true
 # We will create this file in the next step
 scss:
   theme_color: "#008080" # Teal
+
+  # --- ADD THIS LINE ---
+logo: "/logo.png"
+# ---------------------
