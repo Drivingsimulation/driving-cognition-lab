@@ -14,5 +14,4 @@ baseurl: '/driving-cognition-lab'
 avatar: '/logo.png'
 
 plugins:
-  - jekyll-theme-chirpy
-  - jekyll-include-cache
+  - jekyll-remote-theme
