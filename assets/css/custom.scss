@@ -1,17 +1,34 @@
 ---
 ---
-/* This increases the sidebar navigation text size */
+/* 1. Make the Sidebar Wider */
+:root {
+    /* Standard is ~260px; 320px gives more room for your large tab text */
+    --nav-width: 320px; 
+}
+
+/* 2. Style the Sidebar Text */
 .nav-list-link {
-    font-size: 18px !important; /* Standard is usually 14px; 18px is much bigger */
+    font-size: 20px !important; /* Making it even bigger as requested */
     font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-/* This makes the Lab Title at the top even bigger */
+/* 3. Make the Background Interesting */
+/* This adds a subtle "Teal to White" gradient to the main content area */
+.main-content-wrap {
+    background: linear-gradient(135deg, #ffffff 0%, #f0fafa 100%);
+    min-height: 100vh;
+}
+
+/* 4. Add a Purple Accent to the Sidebar Background */
+.side-bar {
+    background-color: #f8f4ff; /* A very faint purple/lavender tint */
+    border-right: 2px solid #008080; /* A teal divider line */
+}
+
+/* 5. Make the Lab Title stand out */
 .site-title {
-    font-size: 24px !important;
-}
-
-/* This adds your Purple color to the active tab */
-.nav-list-link.active {
-    color: #6a0dad !important;
+    font-size: 28px !important;
+    color: #6a0dad !important; /* Purple Title */
 }
