@@ -3,18 +3,16 @@ tagline: Decoding Driver Decisions.
 description: Lab website for driving cognition research.
 
 # Theme Settings
+theme: jekyll-theme-chirpy
 remote_theme: cotes2020/jekyll-theme-chirpy
-jekyll-theme-chirpy:
-  assets:
-    self_hosted: true
 
-# Navigation Settings
+# This must match your GitHub URL exactly
 url: 'https://Drivingsimulation.github.io'
-baseurl: '/driving-cognition-lab' # This must match your repo name exactly
+baseurl: '/driving-cognition-lab'
 
-# Logo
+# This tells the theme where your logo is
 avatar: '/logo.png'
 
-# Plugins
 plugins:
   - jekyll-theme-chirpy
+  - jekyll-include-cache
