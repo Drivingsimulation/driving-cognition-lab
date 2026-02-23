@@ -31,3 +31,4 @@ scss:
 # Ensure the site knows where the main CSS is
 aux_links:
   "Back to Top": "#"
+  favicon_ico: "/logo.png"
