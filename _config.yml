@@ -23,3 +23,11 @@ nav_config:
     url: /people/
   - title: Contact
     url: /contact/
+    # Customizing the look for a Lab feel
+# Just the Docs uses these variables for colors
+heading_anchors: true
+
+# To get the Teal/Purple look, we add a "Custom CSS" instruction
+# We will create this file in the next step
+scss:
+  theme_color: "#008080" # Teal
