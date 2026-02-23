@@ -1,0 +1,17 @@
+---
+---
+/* This increases the sidebar navigation text size */
+.nav-list-link {
+    font-size: 18px !important; /* Standard is usually 14px; 18px is much bigger */
+    font-weight: 500;
+}
+
+/* This makes the Lab Title at the top even bigger */
+.site-title {
+    font-size: 24px !important;
+}
+
+/* This adds your Purple color to the active tab */
+.nav-list-link.active {
+    color: #6a0dad !important;
+}
