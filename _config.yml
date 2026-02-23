@@ -7,7 +7,7 @@ theme: jekyll-theme-chirpy
 remote_theme: cotes2020/jekyll-theme-chirpy
 
 # This must match your GitHub URL exactly
-url: 'https://Drivingsimulation.github.io'
+url: 'https://drivingsimulation.github.io/driving-cognition-lab/'
 baseurl: '/driving-cognition-lab'
 
 # This tells the theme where your logo is
