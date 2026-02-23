@@ -46,3 +46,17 @@
     font-size: 28px !important;
     color: #6a0dad !important; /* Purple Title */
 }
+/* Smooth hover effect for navigation */
+.nav-list-link:hover {
+    background-color: rgba(0, 128, 128, 0.1) !important; /* Light Teal tint */
+    color: #008080 !important;
+    padding-left: 15px !important;
+    transition: all 0.3s ease;
+}
+
+/* Make images zoom slightly when hovered */
+.main-content img:hover {
+    transform: scale(1.01);
+    transition: transform 0.3s ease;
+    cursor: zoom-in;
+}
