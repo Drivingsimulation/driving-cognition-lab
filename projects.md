@@ -18,6 +18,6 @@ This study investigates how young drivers allocate their visual attention during
 
 ![Research Project 1](lab-main.jpg)
 ![Research Project 2](research1.jpg)
-![Research Project 3](research3.jpg)
+![Research Project 3](research3.jpg) 
 ---
 
