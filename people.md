@@ -3,9 +3,16 @@ layout: default
 title: People
 nav_order: 3
 ---
-# Meet the Team
-* **Dr. Lab Lead** - Principal Investigator: Dr.Sunder Bukya
-* **PHD Studnets** - Tilak Chaturvedi
-                   - Punit
-                   - R.Poojitha
-* **Btech Studnets** - Akshay Reddy etc...  
+# Our Team
+
+### Faculty
+* **Dr.Sunder Bukya** - Principal Investigator
+
+### Students
+* **Tilak Chaturvedi** - Lead Researcher
+* **Akshay Reddy** - Graduate Assistant
+
+### Collaborators
+* **Collaborator Name** - University Partner
+
+  
