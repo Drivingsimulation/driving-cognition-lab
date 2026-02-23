@@ -19,3 +19,11 @@ nav_config:
     url: /people/
   - title: Contact
     url: /contact/
+
+    # Tells the site to use your custom CSS
+scss:
+  load_paths: ["_sass"]
+
+# Ensure the site knows where the main CSS is
+aux_links:
+  "Back to Top": "#"
