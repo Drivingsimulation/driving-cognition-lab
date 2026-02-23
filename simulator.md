@@ -18,5 +18,4 @@ The centerpiece of our lab is the **Tecknosim Driving Simulator**, an advanced r
 * **Driver Profiling:** Using the Tecknotrove Driver Profiling System to analyze behavior patterns and risk levels.
 * **Cognitive Load Studies:** Evaluating the impact of distractions on driving performance.
 
-![Driving Simulator Photo](simulator-photo.jpg)
-*Our Tecknosim setup used for ongoing cognitive research projects.*
+
