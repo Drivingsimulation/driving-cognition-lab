@@ -25,6 +25,19 @@
 /* 4. Add a Purple Accent to the Sidebar Background */
 .side-bar {
     background-color: #f8f4ff; /* A very faint purple/lavender tint */
+    /* Ensure the logo is large and clear in the wide sidebar */
+.site-logo {
+    max-height: 120px !important; /* Adjust this height as needed */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Adds a subtle purple shadow to the logo to match your theme */
+.site-logo:hover {
+    filter: drop-shadow(0 0 8px rgba(106, 13, 173, 0.3));
+    transition: 0.3s ease;
+}
     border-right: 2px solid #008080; /* A teal divider line */
 }
 
