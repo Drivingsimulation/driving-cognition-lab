@@ -6,7 +6,11 @@ remote_theme: pmarsceill/just-the-docs
 color_scheme: "light"
 aux_links:
   "GitHub": "https://github.com/Drivingsimulation/driving-cognition-lab"
+# Logo Setup
+logo: "/logo.png"
 
+# Optional: If you want the logo to link back to the home page
+logo_link: "/"
 # This helps with space and layout
 nav_config:
   - title: About Our Lab
