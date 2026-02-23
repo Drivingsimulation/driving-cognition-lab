@@ -1,1 +1,19 @@
+title: Driving Cognition Lab
+description: Studying the mind behind the wheel.
+remote_theme: pmarsceill/just-the-docs # A clean, chirpy-style professional theme
 
+# Cognition-inspired Color Scheme (Blues, Teals, Greys)
+color_scheme: "light"
+aux_links:
+  "GitHub": "https://github.com/{{ github.repository_owner }}/{{ github.repository_name }}"
+
+# Navigation Setup
+nav_config:
+  - title: About Our Lab
+    url: /
+  - title: Research Projects
+    url: /projects/
+  - title: People
+    url: /people/
+  - title: Contact
+    url: /contact/
