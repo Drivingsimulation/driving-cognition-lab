@@ -1,22 +1,20 @@
 title: Driving Cognition Lab
-tagline: Studying the mind behind the wheel.
-description: Lab website for driving cognition and eye-tracking research.
+tagline: Decoding Driver Decisions.
+description: Lab website for driving cognition research.
 
-# This switches you to the Chirpy style
+# Theme Settings
 remote_theme: cotes2020/jekyll-theme-chirpy
+jekyll-theme-chirpy:
+  assets:
+    self_hosted: true
 
-# Basic Settings
-lang: en
-timezone: America/New_York # Change this to your local timezone
+# Navigation Settings
+url: 'https://Drivingsimulation.github.io'
+baseurl: '/driving-cognition-lab' # This must match your repo name exactly
 
-# Color and Style
-# Chirpy uses a "dark/light" toggle by default.
-# It uses sleek blues and greys automatically.
+# Logo
+avatar: '/logo.png'
 
-# Contact Info (This fills out the footer/sidebar)
-social:
-  email: 'lab-email@university.edu'
-  github: 'Drivingsimulation' # Your GitHub username
-
-# Logo setting
-avatar: /logo.png
+# Plugins
+plugins:
+  - jekyll-theme-chirpy
