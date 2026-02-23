@@ -17,8 +17,9 @@
 /* 3. Make the Background Interesting */
 /* This adds a subtle "Teal to White" gradient to the main content area */
 .main-content-wrap {
-    background: linear-gradient(135deg, #ffffff 0%, #f0fafa 100%);
-    min-height: 100vh;
+    background-color: #ffffff;
+    background-image: radial-gradient(#e0e0e0 1px, transparent 1px);
+    background-size: 30px 30px; /* Creates a clean, subtle grid */
 }
 
 /* 4. Add a Purple Accent to the Sidebar Background */
