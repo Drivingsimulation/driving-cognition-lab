@@ -60,3 +60,16 @@
     transition: transform 0.3s ease;
     cursor: zoom-in;
 }
+/* Student Profile Cards */
+.student-card {
+    border-left: 5px solid #008080; /* Teal Accent */
+    background: #fdfbff; /* Very light purple tint */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+.student-card h3 {
+    color: #6a0dad !important; /* Purple Names */
+    margin-top: 0;
