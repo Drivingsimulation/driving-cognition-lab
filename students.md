@@ -12,45 +12,40 @@ Our lab is home to dedicated researchers investigating the intersections of tech
 
 ## PhD Researchers
 
-<div class="student-card">
-
 ### Tilak Chaturvedi
 **Project:** Driving Behaviour and Cognitive Efficiency in Visual Search Tasks.
 * **Email:** [se25phss003@mahindrauniversity.edu.in](mailto:se25phss003@mahindrauniversity.edu.in)
 * **LinkedIn:** [View Professional Profile](https://www.linkedin.com/in/yourprofile)
 
-</div>
-
-<div class="student-card">
+---
 
 ### K. Punit
 **Project:** Driving Behaviour and Cognitive Efficiency in Visual Search Tasks.
 * **Email:** [se25phss005@mahindrauniversity.edu.in](mailto:se25phss005@mahindrauniversity.edu.in)
 * **LinkedIn:** [View Professional Profile](https://www.linkedin.com/in/yourprofile)
 
-</div>
-
-<div class="student-card">
+---
 
 ### R. Poojitha
 **Project:** Driving Behaviour and Cognitive Efficiency in Visual Search Tasks.
 * **Email:** [se25phss013@mahindrauniversity.edu.in](mailto:se25phss013@mahindrauniversity.edu.in)
 * **LinkedIn:** [View Professional Profile](https://www.linkedin.com/in/rudraraju-poojitha)
 
-</div>
-
 ---
 
 ## Undergraduate Researchers (B.Tech)
 
-<div class="student-card">
+### [Student Name]
+**Project:** Driving Behaviour and Cognitive Efficiency in Visual Search Tasks.
+* **Email:** [student.email@mahindrauniversity.edu.in](mailto:student.email@mahindrauniversity.edu.in)
+* **LinkedIn:** [View Professional Profile](https://www.linkedin.com/in/yourprofile)
+
+---
 
 ### [Student Name]
 **Project:** Driving Behaviour and Cognitive Efficiency in Visual Search Tasks.
-* **Email:** [student.email@university.edu](mailto:student.email@university.edu)
+* **Email:** [student.email@mahindrauniversity.edu.in](mailto:student.email@mahindrauniversity.edu.in)
 * **LinkedIn:** [View Professional Profile](https://www.linkedin.com/in/yourprofile)
-
-</div>
 
 ---
 
