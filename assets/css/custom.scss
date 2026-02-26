@@ -50,3 +50,33 @@
     border: 1.5px solid #008080; /* Teal border like a WhatsApp story/DP */
     margin-top: 5px;
 }
+---
+---
+/* ... (keep your previous sidebar and faculty-card CSS) ... */
+
+/* Clear Contact/Email Styling */
+.contact-list {
+    display: flex;
+    flex-direction: column; /* Forces vertical stacking */
+    gap: 8px;               /* Adds space between the two emails */
+    margin: 10px 0;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #444;
+}
+
+.contact-item a {
+    color: #008080 !important;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 8px; /* Space after the emoji/icon */
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+    color: #6a0dad !important; /* Turns purple on hover */
+}
