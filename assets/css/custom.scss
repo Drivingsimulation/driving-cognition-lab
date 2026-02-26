@@ -1,56 +1,43 @@
 ---
 ---
-
-/* 1. SIDEBAR & NAVIGATION */
+/* 1. Sidebar & Navigation */
 :root {
-    --nav-width: 320px; /* Wider sidebar for long tab names */
+    --nav-width: 320px; 
 }
 
 .side-bar {
-    background-color: #f8f4ff !important; /* Faint lavender tint */
-    border-right: 2px solid #008080 !important; /* Teal divider line */
+    background-color: #f8f4ff !important;
+    border-right: 2px solid #008080 !important;
 }
 
 .site-title {
     font-size: 28px !important;
-    color: #6a0dad !important; /* Purple Lab Title */
-    font-weight: bold;
+    color: #6a0dad !important;
 }
 
 .nav-list-link {
-    font-size: 20px !important; /* Large sidebar text */
+    font-size: 20px !important;
     font-weight: 500;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    transition: all 0.3s ease;
 }
 
-.nav-list-link:hover {
-    background-color: rgba(0, 128, 128, 0.1) !important; /* Light teal hover tint */
-    color: #008080 !important;
-    padding-left: 25px !important; /* Subtle slide effect */
-}
-
-/* 2. FACULTY CARDS (Very Small & Circular) */
+/* 2. Faculty Profile Cards (Very Small & Circular) */
 .faculty-card {
     display: flex;
     align-items: center; 
     background: #ffffff;
-    border: 1px solid #e1e4e8;
-    border-radius: 12px;
-    padding: 10px 15px;
-    margin-bottom: 15px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    border-bottom: 1px solid #e1e4e8;
+    padding: 10px 0;
+    margin-bottom: 10px;
 }
 
 .faculty-img {
-    width: 60px !important;   /* Small size as requested */
-    height: 60px !important;  /* Must match width for a circle */
-    border-radius: 50% !important; /* Makes it a circle */
+    width: 60px !important;   /* Tiny size */
+    height: 60px !important;
+    border-radius: 50% !important; /* Perfect circle */
     object-fit: cover;
     margin-right: 15px;
-    border: 2px solid #6a0dad; /* Purple frame around photo */
-    flex-shrink: 0; /* Prevents image from squishing on mobile */
+    border: 2px solid #6a0dad;
+    flex-shrink: 0;
 }
 
 .faculty-info h3 {
@@ -62,41 +49,4 @@
 .faculty-info p {
     margin: 0 !important;
     font-size: 0.85rem;
-    color: #444;
-}
-
-/* 3. LOGO & BUTTONS */
-.site-logo {
-    max-height: 120px !important;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    display: block;
-    transition: 0.3s ease;
-}
-
-.site-logo:hover {
-    filter: drop-shadow(0 0 8px rgba(106, 13, 173, 0.3));
-}
-
-.btn-purple {
-    display: inline-block;
-    padding: 10px 22px;
-    background-color: #6a0dad !important;
-    color: white !important;
-    border-radius: 6px;
-    text-decoration: none !important;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.btn-purple:hover {
-    background-color: #008080 !important;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-/* 4. MAIN BACKGROUND */
-.main-content-wrap {
-    background-color: #ffffff;
-    background-image: radial-gradient(#e0e0e0 1px, transparent 1px);
-    background-size: 30px 30px; /* Subtle grid background */
 }
