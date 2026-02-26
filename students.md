@@ -8,7 +8,7 @@ nav_order: 4
 
 ---
 
-## Research Assistants 
+## Research Scholars
 
 <div class="faculty-card">
   <h3>Tilak Chaturvedi</h3>
@@ -39,7 +39,7 @@ nav_order: 4
 
 ---
 
-## Undergraduate Research Assistants
+## Undergraduate Research Students
 
 <div class="faculty-card">
   <h3>Adla Akshith Reddy</h3>
