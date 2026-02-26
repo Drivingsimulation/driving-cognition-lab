@@ -1,82 +1,44 @@
 ---
 ---
-/* Sidebar & Navigation Settings */
+/* Navigation & Sidebar */
 :root { --nav-width: 320px; }
 .side-bar { background-color: #f8f4ff !important; border-right: 2px solid #008080 !important; }
 .site-title { font-size: 28px !important; color: #6a0dad !important; }
-.nav-list-link { font-size: 20px !important; font-weight: 500; }
 
-/* WhatsApp DP Style Faculty Cards */
+/* Contact & Email Stacking */
+.contact-container {
+    margin: 20px 0;
+    display: block;
+}
+
+.email-entry {
+    display: block; /* Forces each email onto a new line */
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+
+.email-entry strong {
+    color: #444;
+}
+
+.email-entry a {
+    color: #008080 !important;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* WhatsApp DP Style Profile */
 .faculty-card {
     display: flex;
-    flex-direction: column; /* Stacks text on top of image */
-    align-items: flex-start;
-    background: #ffffff;
-    border-bottom: 1px solid #e1e4e8;
+    flex-direction: column;
     padding: 15px 0;
-    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
 }
 
-.faculty-info h3 {
-    margin: 0 !important;
-    color: #6a0dad !important;
-    font-size: 1.1rem !important;
-}
-
-.faculty-links {
-    margin: 4px 0;
-}
-
-.faculty-links a {
-    color: #008080 !important;
-    font-size: 0.8rem;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.faculty-description {
-    font-size: 0.85rem;
-    line-height: 1.4;
-    color: #444;
-    margin-bottom: 10px !important;
-}
-
-/* Tiny WhatsApp-sized DP at the bottom */
 .faculty-img {
-    width: 45px !important;   /* Smallest possible "DP" size */
+    width: 45px !important;
     height: 45px !important;
     border-radius: 50% !important;
-    object-fit: cover;
-    border: 1.5px solid #008080; /* Teal border like a WhatsApp story/DP */
-    margin-top: 5px;
-}
----
----
-/* ... (keep your previous sidebar and faculty-card CSS) ... */
-
-/* Clear Contact/Email Styling */
-.contact-list {
-    display: flex;
-    flex-direction: column; /* Forces vertical stacking */
-    gap: 8px;               /* Adds space between the two emails */
-    margin: 10px 0;
-}
-
-.contact-item {
-    display: flex;
-    align-items: center;
-    font-size: 0.9rem;
-    color: #444;
-}
-
-.contact-item a {
-    color: #008080 !important;
-    font-weight: 600;
-    text-decoration: none;
-    margin-left: 8px; /* Space after the emoji/icon */
-}
-
-.contact-item a:hover {
-    text-decoration: underline;
-    color: #6a0dad !important; /* Turns purple on hover */
+    border: 1.5px solid #008080;
+    margin-top: 10px;
 }
