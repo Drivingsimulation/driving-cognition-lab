@@ -48,10 +48,6 @@ Our lab is home to dedicated researchers investigating the intersections of tech
 * **LinkedIn:** [View Professional Profile](https://www.linkedin.com/in/yourprofile)
 
 ---
-<div style="background-color: #f8f4ff; border: 2px dashed #6a0dad; padding: 20px; border-radius: 10px; text-align: center; margin-top: 30px;">
-  <h3 style="color: #6a0dad; margin-top: 0;">Interested in joining?</h3>
-  <p>We are looking for motivated B.Tech students for data collection and simulator trials.</p>
-  <a href="mailto:sunder.bukya@mahindrauniversity.edu.in" style="font-weight: bold; color: #008080; font-size: 1.2em; text-decoration: underline;">
-    Click here to Apply for Internship
-  </a>
-</div>
+### 📩 Join Our Research Team
+**We are currently accepting B.Tech Interns!** If you are interested in assistance with data collection and simulator trials, please send your CV to:  
+👉 **[sunder.bukya@mahindrauniversity.edu.in](mailto:sunder.bukya@mahindrauniversity.edu.in)**
