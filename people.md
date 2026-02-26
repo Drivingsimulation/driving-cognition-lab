@@ -11,7 +11,7 @@ Our research is led by experts in Cognitive Science and Psychology from Mahindra
 ---
 
 <div class="faculty-card">
-  <img src="/assets/images/sunder_b.jpg" class="faculty-img" alt="Dr. Sunder Bukya">
+  <img src="{{ site.baseurl }}/assets/images/sunder_b.jpg" class="faculty-img">
   <div class="faculty-info">
     <h2>Dr. Sunder Bukya</h2>
     <p><strong>Assistant Professor, Humanities & Social Sciences</strong></p>
