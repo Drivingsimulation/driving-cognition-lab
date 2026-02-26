@@ -10,7 +10,7 @@ Our lab is home to dedicated researchers investigating the intersections of tech
 
 ---
 
-## PhD Researchers
+## Research Assistants 
 
 ### Tilak Chaturvedi
 **Project:** Driving Behaviour and Cognitive Efficiency in Visual Search Tasks.
@@ -33,7 +33,7 @@ Our lab is home to dedicated researchers investigating the intersections of tech
 
 ---
 
-## Undergraduate Researchers (B.Tech)
+## Undergraduate Research Assistants
 
 ### [Student Name]
 **Project:** Driving Behaviour and Cognitive Efficiency in Visual Search Tasks.
