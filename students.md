@@ -27,7 +27,7 @@ Our lab is home to dedicated researchers investigating the intersections of tech
 ### [R.Poojitha]
 **Project:** Driving Behaviour and Cognitive Efficiency in Visual Search Tasks.
 * **Email:** [student.email@university.edu](mailto:se25phss013@mahindrauniversity.edu.in)
-* **LinkedIn:** [View Professional Profile](www.linkedin.com/in/
+* **LinkedIn:** [View Professional Profile]( https://www.linkedin.com/in/
 rudraraju-poojitha
 Vanity URL name
 )
