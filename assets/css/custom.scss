@@ -46,36 +46,30 @@
 }
 ---
 ---
-/* Optimized Small Faculty Photos */
-.faculty-card {
-    display: flex;
-    align-items: center;
-    background: #ffffff;
-    border: 1px solid #e1e4e8;
-    border-radius: 12px;
-    padding: 10px 15px; /* Thinner padding for smaller cards */
-    margin-bottom: 15px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-}
-
+/* Tiny, Circular Image Styling */
 .faculty-img {
-    width: 60px !important;    /* Even smaller size */
-    height: 60px !important;   /* Must match width */
-    border-radius: 50% !important; 
+    float: left;            /* Puts image next to text */
+    width: 60px !important; /* Tiny size */
+    height: 60px !important;
+    border-radius: 50% !important; /* Perfect circle */
+    margin-right: 15px;
+    margin-bottom: 10px;
+    border: 2px solid #6a0dad;
     object-fit: cover;
-    margin-right: 15px;        /* Reduced gap */
-    border: 2px solid #6a0dad; 
-    flex-shrink: 0;            /* Prevents image from squishing */
 }
 
-.faculty-info h2 {
-    margin: 0 !important;
-    color: #6a0dad !important;
-    font-size: 1.1rem !important; /* Slightly smaller text for balance */
+/* Clearfix to prevent text from overlapping next person */
+.faculty-info-box {
+    display: block;
+    overflow: hidden; /* Clears the float */
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
 }
 
-.faculty-info p {
-    margin: 0 !important;
-    font-size: 0.85rem;
-    line-height: 1.4;
+/* Style the links under the name */
+.faculty-info-box a {
+    color: #008080 !important;
+    font-weight: bold;
+    text-decoration: none;
 }
