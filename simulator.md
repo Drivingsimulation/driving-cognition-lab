@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "🏎️ Research Technology"
+title: "Research Technology"
 nav_order: 3
 ---
 
