@@ -45,11 +45,38 @@
     margin-bottom: 20px;
 }
 
+---
+---
+/* Optimized Small Faculty Photos */
+.faculty-card {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid #e1e4e8;
+    border-radius: 12px;
+    padding: 10px 15px; /* Thinner padding for smaller cards */
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
 .faculty-img {
-    width: 80px !important; 
-    height: 80px !important; 
-    border-radius: 50% !important;
+    width: 60px !important;    /* Even smaller size */
+    height: 60px !important;   /* Must match width */
+    border-radius: 50% !important; 
     object-fit: cover;
-    margin-right: 20px;
-    border: 2px solid #6a0dad;
+    margin-right: 15px;        /* Reduced gap */
+    border: 2px solid #6a0dad; 
+    flex-shrink: 0;            /* Prevents image from squishing */
+}
+
+.faculty-info h2 {
+    margin: 0 !important;
+    color: #6a0dad !important;
+    font-size: 1.1rem !important; /* Slightly smaller text for balance */
+}
+
+.faculty-info p {
+    margin: 0 !important;
+    font-size: 0.85rem;
+    line-height: 1.4;
 }
