@@ -12,17 +12,17 @@ A glimpse into our research environment, simulator trials, and lab activities at
 
 <div class="gallery-grid">
   <div class="gallery-item">
-    <img src="{{ site.baseurl }}/assets/images/lab_setup.jpg" alt="Lab Setup">
+    <img src="{{ site.baseurl }}/assets/images/lab-main.jpg" alt="Lab Setup">
     <p>Our Driving Simulator Setup in P1 Block</p>
   </div>
 
   <div class="gallery-item">
-    <img src="{{ site.baseurl }}/assets/images/trial_session.jpg" alt="Trial Session">
+    <img src="{{ site.baseurl }}/assets/images/research2.jpg" alt="Trial Session">
     <p>Student conducting a cognitive load trial</p>
   </div>
 
   <div class="gallery-item">
-    <img src="{{ site.baseurl }}/assets/images/team_meeting.jpg" alt="Team Meeting">
+    <img src="{{ site.baseurl }}/assets/images/research3.jpg" alt="Team Meeting">
     <p>PIs and Students during a weekly briefing</p>
   </div>
 </div>
