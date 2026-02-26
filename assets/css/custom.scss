@@ -1,102 +1,55 @@
 ---
 ---
-/* 1. Sidebar Layout & Width */
+/* Clean Build - Sidebar Width */
 :root {
     --nav-width: 320px; 
 }
 
-/* 2. Sidebar Sidebar Background & Border */
+/* Sidebar Styling */
 .side-bar {
-    background-color: #f8f4ff !important; /* Faint lavender tint */
-    border-right: 2px solid #008080 !important; /* Teal divider line */
+    background-color: #f8f4ff !important;
+    border-right: 2px solid #008080 !important;
 }
 
-/* 3. Logo & Title Styling */
+/* Logo and Title */
 .site-logo {
     max-height: 120px !important;
     margin-top: 20px;
-    margin-bottom: 10px;
     display: block;
-    transition: 0.3s ease;
-}
-
-.site-logo:hover {
-    filter: drop-shadow(0 0 8px rgba(106, 13, 173, 0.3));
 }
 
 .site-title {
     font-size: 28px !important;
-    color: #6a0dad !important; /* Purple Title */
-    font-weight: bold;
+    color: #6a0dad !important;
 }
 
-/* 4. Sidebar Navigation Links */
+/* Sidebar Links */
 .nav-list-link {
     font-size: 20px !important;
     font-weight: 500;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    transition: all 0.3s ease;
 }
 
 .nav-list-link:hover {
-    background-color: rgba(0, 128, 128, 0.1) !important; /* Light Teal tint */
     color: #008080 !important;
-    padding-left: 25px !important; /* Slides slightly to the right */
+    padding-left: 20px !important;
 }
 
-/* 5. Main Content Area Background (Subtle Grid) */
-.main-content-wrap {
-    background-color: #ffffff;
-    background-image: radial-gradient(#e0e0e0 1px, transparent 1px);
-    background-size: 30px 30px;
-}
-
-/* 6. Faculty Profile Card Styling (Compact & Circular) */
+/* Faculty Card - Circle & Half Size */
 .faculty-card {
     display: flex;
-    align-items: center; 
+    align-items: center;
     background: #ffffff;
     border: 1px solid #e1e4e8;
     border-radius: 12px;
     padding: 15px;
     margin-bottom: 20px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
 .faculty-img {
-    width: 80px !important;   /* Half-size as requested */
-    height: 80px !important;  /* Must be equal to width for circle */
-    border-radius: 50% !important; /* Perfect circle */
+    width: 80px !important; 
+    height: 80px !important; 
+    border-radius: 50% !important;
     object-fit: cover;
     margin-right: 20px;
-    border: 3px solid #6a0dad; /* Purple accent border */
+    border: 2px solid #6a0dad;
 }
-
-.faculty-info h2 {
-    margin: 0 !important;
-    color: #6a0dad !important;
-    font-size: 22px !important;
-}
-
-.faculty-links a {
-    color: #008080 !important; /* Teal links */
-    font-weight: bold;
-    text-decoration: none;
-    margin-right: 15px;
-    font-size: 14px;
-}
-
-/* 7. Student Card Styling */
-.student-card {
-    border-left: 5px solid #008080; /* Teal border */
-    background: #fdfbff;
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 0 8px 8px 0;
-}
-
-/* 8. Global Image & Button Effects */
-.main-content img:hover {
-    transform: scale(1.02);
-    transition: transform 0.
