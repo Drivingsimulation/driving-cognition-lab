@@ -39,4 +39,4 @@ We measure the impact of secondary tasks (auditory, visual, or cognitive) on pri
 ### Research Inquiries
 If you are interested in utilizing our simulation environment for collaborative research or industrial testing, please contact us.
 
-(mailto:sunder.bukya@mahindrauniversity.edu.in){: style="color: #6a0dad; font-weight: bold;"}
+[Inquire About Facilities](mailto:sunder.bukya@mahindrauniversity.edu.in){: style="color: #6a0dad; font-weight: bold;"}
