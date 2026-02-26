@@ -12,41 +12,39 @@ Our lab is home to dedicated researchers investigating the intersections of tech
 
 ## PhD Researchers
 
-### [Tilak Chaturvedi]
-**Project:** Driving Behaviour and Cognitive Efficiency in Visual Search Tasks.
-* **Email:** [student.email@university.edu](mailto:se25phss003@mahindrauniversity.edu.in)
-* **LinkedIn:** [View Professional Profile](https://linkedin.com/in/yourprofile)
+<div class="student-card">
+  <h3>Tilak Chaturvedi</h3>
+  <p><strong>Project:</strong> Driving Behaviour and Cognitive Efficiency in Visual Search Tasks.</p>
+  <p>📧 <a href="mailto:se25phss003@mahindrauniversity.edu.in">se25phss003@mahindrauniversity.edu.in</a> | 🔗 <a href="https://www.linkedin.com/in/yourprofile">LinkedIn Profile</a></p>
+</div>
 
----
+<div class="student-card">
+  <h3>K. Punit</h3>
+  <p><strong>Project:</strong> Driving Behaviour and Cognitive Efficiency in Visual Search Tasks.</p>
+  <p>📧 <a href="mailto:se25phss005@mahindrauniversity.edu.in">se25phss005@mahindrauniversity.edu.in</a> | 🔗 <a href="https://www.linkedin.com/in/yourprofile">LinkedIn Profile</a></p>
+</div>
 
-### [K.Punit]
-**Project:** Driving Behaviour and Cognitive Efficiency in Visual Search Tasks.
-* **Email:** [student.email@university.edu](mailto:se25phss005@mahindrauniversity.edu.in)
-* **LinkedIn:** [View Professional Profile](https://linkedin.com/in/yourprofile)
-
-### [R.Poojitha]
-**Project:** Driving Behaviour and Cognitive Efficiency in Visual Search Tasks.
-* **Email:** [student.email@university.edu](mailto:se25phss013@mahindrauniversity.edu.in)
-* **LinkedIn:** [View Professional Profile]( https://www.linkedin.com/in/
-rudraraju-poojitha
-Vanity URL name
-)
+<div class="student-card">
+  <h3>R. Poojitha</h3>
+  <p><strong>Project:</strong> Driving Behaviour and Cognitive Efficiency in Visual Search Tasks.</p>
+  <p>📧 <a href="mailto:se25phss013@mahindrauniversity.edu.in">se25phss013@mahindrauniversity.edu.in</a> | 🔗 <a href="https://www.linkedin.com/in/rudraraju-poojitha">LinkedIn Profile</a></p>
+</div>
 
 ---
 
 ## Undergraduate Researchers (B.Tech)
 
-### [Student Name]
-**Project:** Driving Behaviour and Cognitive Efficiency in Visual Search Tasks.
-* **Email:** [student.email@university.edu](mailto:student.email@university.edu)
-* **LinkedIn:** [View Professional Profile](https://linkedin.com/in/yourprofile)
+<div class="student-card">
+  <h3>[Student Name]</h3>
+  <p><strong>Project:</strong> Driving Behaviour and Cognitive Efficiency in Visual Search Tasks.</p>
+  <p>📧 <a href="mailto:student.email@university.edu">Email ID</a> | 🔗 <a href="https://www.linkedin.com/in/yourprofile">LinkedIn Profile</a></p>
+</div>
 
----
-
-### [Student Name]
-**Project:** Driving Behaviour and Cognitive Efficiency in Visual Search Tasks.
-* **Email:** [student.email@university.edu](mailto:student.email@university.edu)
-* **LinkedIn:** [View Professional Profile](https://linkedin.com/in/yourprofile)
+<div class="student-card">
+  <h3>[Student Name]</h3>
+  <p><strong>Project:</strong> Driving Behaviour and Cognitive Efficiency in Visual Search Tasks.</p>
+  <p>📧 <a href="mailto:student.email@university.edu">Email ID</a> | 🔗 <a href="https://www.linkedin.com/in/yourprofile">LinkedIn Profile</a></p>
+</div>
 
 ---
 
