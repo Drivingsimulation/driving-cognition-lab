@@ -1,73 +1,52 @@
 ---
 ---
-/* 1. Sidebar & Navigation */
-:root {
-    --nav-width: 320px; 
-}
+/* Sidebar & Navigation Settings */
+:root { --nav-width: 320px; }
+.side-bar { background-color: #f8f4ff !important; border-right: 2px solid #008080 !important; }
+.site-title { font-size: 28px !important; color: #6a0dad !important; }
+.nav-list-link { font-size: 20px !important; font-weight: 500; }
 
-.side-bar {
-    background-color: #f8f4ff !important;
-    border-right: 2px solid #008080 !important;
-}
-
-.site-title {
-    font-size: 28px !important;
-    color: #6a0dad !important;
-}
-
-.nav-list-link {
-    font-size: 20px !important;
-    font-weight: 500;
-}
-
-/* 2. Faculty Profile Cards (Boxed & Organized) */
+/* WhatsApp DP Style Faculty Cards */
 .faculty-card {
     display: flex;
-    align-items: flex-start; /* Better alignment for long text */
+    flex-direction: column; /* Stacks text on top of image */
+    align-items: flex-start;
     background: #ffffff;
-    border: 1px solid #e1e4e8; /* Full box instead of just a line */
-    border-radius: 12px;
-    padding: 20px;
-    margin-bottom: 25px; /* Clear gap between faculty members */
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-}
-
-.faculty-img {
-    width: 60px !important;
-    height: 60px !important;
-    border-radius: 50% !important;
-    object-fit: cover;
-    margin-right: 15px;
-    border: 2px solid #6a0dad;
-    flex-shrink: 0;
+    border-bottom: 1px solid #e1e4e8;
+    padding: 15px 0;
+    margin-bottom: 20px;
 }
 
 .faculty-info h3 {
-    margin: 0 0 5px 0 !important;
+    margin: 0 !important;
     color: #6a0dad !important;
-    font-size: 1.2rem !important;
+    font-size: 1.1rem !important;
 }
 
-.faculty-info p {
-    margin: 4px 0 !important;
-    font-size: 0.9rem;
-    line-height: 1.5;
-}
-
-/* 3. Dedicated Link Section (Fixes the "floating link" confusion) */
 .faculty-links {
-    margin-top: 12px;
-    padding-top: 8px;
-    border-top: 1px solid #f0f0f0;
+    margin: 4px 0;
 }
 
 .faculty-links a {
     color: #008080 !important;
-    font-weight: 600;
+    font-size: 0.8rem;
+    font-weight: bold;
     text-decoration: none;
-    font-size: 0.85rem;
 }
 
-.faculty-links a:hover {
-    text-decoration: underline;
+.faculty-description {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    color: #444;
+    margin-bottom: 10px !important;
+}
+
+/* Tiny WhatsApp-sized DP at the bottom */
+.faculty-img {
+    width: 45px !important;   /* Smallest possible "DP" size */
+    height: 45px !important;
+    border-radius: 50% !important;
+    object-fit: cover;
+    border: 1.5px solid #008080; /* Teal border like a WhatsApp story/DP */
+    margin-top: 5px;
 }
