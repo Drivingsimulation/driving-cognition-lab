@@ -15,4 +15,4 @@ We combine psychological theory with advanced technological tools to gain a deep
 * **Eye-Tracking:** Mapping visual attention and mental focus during driving tasks.
 * **Cognition Research:** Analyzing how distractions and stressors impact performance.
 
-![Lab Overview](lab-main.jpg)
+![Lab Overview](lab-setup.jpg)
