@@ -23,7 +23,7 @@ A glimpse into our research environment, simulator trials, and lab activities at
 
   <div class="gallery-item">
     <img src="{{ site.baseurl }}/assets/images/research3.jpg" alt="Team Meeting">
-    <p>Studnet participating in the study</p>
+    <p>Student participating in the study</p>
   </div>
 </div>
 
