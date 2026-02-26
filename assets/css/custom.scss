@@ -20,20 +20,22 @@
     font-weight: 500;
 }
 
-/* 2. Faculty Profile Cards (Very Small & Circular) */
+/* 2. Faculty Profile Cards (Boxed & Organized) */
 .faculty-card {
     display: flex;
-    align-items: center; 
+    align-items: flex-start; /* Better alignment for long text */
     background: #ffffff;
-    border-bottom: 1px solid #e1e4e8;
-    padding: 10px 0;
-    margin-bottom: 10px;
+    border: 1px solid #e1e4e8; /* Full box instead of just a line */
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 25px; /* Clear gap between faculty members */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
 .faculty-img {
-    width: 60px !important;   /* Tiny size */
+    width: 60px !important;
     height: 60px !important;
-    border-radius: 50% !important; /* Perfect circle */
+    border-radius: 50% !important;
     object-fit: cover;
     margin-right: 15px;
     border: 2px solid #6a0dad;
@@ -41,12 +43,31 @@
 }
 
 .faculty-info h3 {
-    margin: 0 !important;
+    margin: 0 0 5px 0 !important;
     color: #6a0dad !important;
-    font-size: 1.1rem !important;
+    font-size: 1.2rem !important;
 }
 
 .faculty-info p {
-    margin: 0 !important;
+    margin: 4px 0 !important;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* 3. Dedicated Link Section (Fixes the "floating link" confusion) */
+.faculty-links {
+    margin-top: 12px;
+    padding-top: 8px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.faculty-links a {
+    color: #008080 !important;
+    font-weight: 600;
+    text-decoration: none;
     font-size: 0.85rem;
+}
+
+.faculty-links a:hover {
+    text-decoration: underline;
 }
