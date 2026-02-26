@@ -1,112 +1,82 @@
 ---
 ---
-/* 1. Make the Sidebar Wider */
+/* 1. Sidebar Layout & Width */
 :root {
-    /* Standard is ~260px; 320px gives more room for your large tab text */
     --nav-width: 320px; 
 }
 
-/* 2. Style the Sidebar Text */
-.nav-list-link {
-    font-size: 20px !important; /* Making it even bigger as requested */
-    font-weight: 500;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-/* 3. Make the Background Interesting */
-/* This adds a subtle "Teal to White" gradient to the main content area */
-.main-content-wrap {
-    background-color: #ffffff;
-    background-image: radial-gradient(#e0e0e0 1px, transparent 1px);
-    background-size: 30px 30px; /* Creates a clean, subtle grid */
-}
-
-/* 4. Add a Purple Accent to the Sidebar Background */
+/* 2. Sidebar Sidebar Background & Border */
 .side-bar {
-    background-color: #f8f4ff; /* A very faint purple/lavender tint */
-    /* Ensure the logo is large and clear in the wide sidebar */
+    background-color: #f8f4ff !important; /* Faint lavender tint */
+    border-right: 2px solid #008080 !important; /* Teal divider line */
+}
+
+/* 3. Logo & Title Styling */
 .site-logo {
-    max-height: 120px !important; /* Adjust this height as needed */
+    max-height: 120px !important;
     margin-top: 20px;
     margin-bottom: 10px;
     display: block;
-}
-
-/* Adds a subtle purple shadow to the logo to match your theme */
-.site-logo:hover {
-    filter: drop-shadow(0 0 8px rgba(106, 13, 173, 0.3));
     transition: 0.3s ease;
 }
-    border-right: 2px solid #008080; /* A teal divider line */
+
+.site-logo:hover {
+    filter: drop-shadow(0 0 8px rgba(106, 13, 173, 0.3));
 }
 
-/* 5. Make the Lab Title stand out */
 .site-title {
     font-size: 28px !important;
     color: #6a0dad !important; /* Purple Title */
+    font-weight: bold;
 }
-/* Smooth hover effect for navigation */
-.nav-list-link:hover {
-    background-color: rgba(0, 128, 128, 0.1) !important; /* Light Teal tint */
-    color: #008080 !important;
-    padding-left: 15px !important;
+
+/* 4. Sidebar Navigation Links */
+.nav-list-link {
+    font-size: 20px !important;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
     transition: all 0.3s ease;
 }
 
-/* Make images zoom slightly when hovered */
-.main-content img:hover {
-    transform: scale(1.01);
-    transition: transform 0.3s ease;
-    cursor: zoom-in;
-}
-/* Custom Button Styling */
-.btn-purple {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #6a0dad !important; /* Purple */
-    color: white !important;
-    border-radius: 6px;
-    text-decoration: none !important;
-    font-weight: bold;
-    margin-top: 10px;
+.nav-list-link:hover {
+    background-color: rgba(0, 128, 128, 0.1) !important; /* Light Teal tint */
+    color: #008080 !important;
+    padding-left: 25px !important; /* Slides slightly to the right */
 }
 
-.btn-purple:hover {
-    background-color: #008080 !important; /* Turns Teal on hover */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    transition: 0.3s;
+/* 5. Main Content Area Background (Subtle Grid) */
+.main-content-wrap {
+    background-color: #ffffff;
+    background-image: radial-gradient(#e0e0e0 1px, transparent 1px);
+    background-size: 30px 30px;
 }
-/* Faculty Profile Card Styling */
+
+/* 6. Faculty Profile Card Styling (Compact & Circular) */
 .faculty-card {
     display: flex;
+    align-items: center; 
     background: #ffffff;
     border: 1px solid #e1e4e8;
     border-radius: 12px;
-    padding: 20px;
-    margin-bottom: 30px;
+    padding: 15px;
+    margin-bottom: 20px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    align-items: center;
 }
 
 .faculty-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    width: 80px !important;   /* Half-size as requested */
+    height: 80px !important;  /* Must be equal to width for circle */
+    border-radius: 50% !important; /* Perfect circle */
     object-fit: cover;
-    margin-right: 25px;
-    border: 3px solid #6a0dad; /* Purple border */
+    margin-right: 20px;
+    border: 3px solid #6a0dad; /* Purple accent border */
 }
 
 .faculty-info h2 {
-    margin-top: 0;
+    margin: 0 !important;
     color: #6a0dad !important;
-    font-size: 24px;
-}
-
-.faculty-info p {
-    margin: 5px 0;
-    font-size: 16px;
+    font-size: 22px !important;
 }
 
 .faculty-links a {
@@ -114,4 +84,19 @@
     font-weight: bold;
     text-decoration: none;
     margin-right: 15px;
+    font-size: 14px;
 }
+
+/* 7. Student Card Styling */
+.student-card {
+    border-left: 5px solid #008080; /* Teal border */
+    background: #fdfbff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 0 8px 8px 0;
+}
+
+/* 8. Global Image & Button Effects */
+.main-content img:hover {
+    transform: scale(1.02);
+    transition: transform 0.
