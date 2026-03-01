@@ -17,8 +17,3 @@ This study investigates how young drivers allocate their visual attention during
 * **Co-Principal Investigator:** Dr. Shivaram Male
 
 
-![Research Project 1](research2.jpg)
-![Research Project 2](research1.jpg)
-![Research Project 3](research3.jpg) 
----
-
